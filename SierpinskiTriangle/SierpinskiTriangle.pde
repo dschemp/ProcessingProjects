@@ -25,6 +25,13 @@ void draw() {
   Point b = new Point(width, height - 1); // bottom right corner
   Point c = new Point(width / 2, 0); // top middle corner
   
+  // draw text indicating the level of recursion and width x height
+  fill(10);
+  textSize(20);
+  text("Level: " + level, 30, 50);
+  text("Size (px): " + width + "x" + height, 30, 85);
+  noFill();
+  
   // drawing starting triangle
   triangle(a, b, c);
   
@@ -39,13 +46,14 @@ void draw() {
 }
 
 void drawTriangles(Point a, Point b, Point c, int level) {
+    
   if (level <= 0) return;
     
   level -= 1; // decrease level as it is in a triangle
     
   // upside down triangle in parent triangle
   triangle(c.x, b.y, (c.x + b.x) / 2, (c.y + a.y) / 2, (a.x + c.x) / 2, (c.y + a.y) / 2);
-  
+    
   // draw three new triangles
   // down left
   drawTriangles(
