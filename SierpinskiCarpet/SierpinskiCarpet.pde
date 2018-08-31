@@ -2,11 +2,11 @@
 int level;
 
 void setup() {
-  level = 6;
+  level = 5;
 }
 
 void settings() {
-  size(2187, 2187);
+  size(729, 729);
 }
 
 void draw() {
