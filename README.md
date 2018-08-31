@@ -7,4 +7,4 @@
 ![PythagorasTreeImage](PythagorasTree/PythagorasTree.png)
 
 #### Sierpinski carpet
-![SierpinskiCarpetImage](SierpinskiCarpet/SierpinskiCarpet_Level6_2187x2187.png)
+![SierpinskiCarpetImage](SierpinskiCarpet/SierpinskiCarpet_Level5_729x729.png)
