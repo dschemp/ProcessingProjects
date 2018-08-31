@@ -28,8 +28,9 @@ void draw() {
   // draw text indicating the level of recursion and width x height
   fill(10);
   textSize(20);
-  text("Level: " + level, 30, 50);
-  text("Size (px): " + width + "x" + height, 30, 85);
+  text("Sierpinski triangle", 30, 35);
+  text("Level: " + level, 30, 75);
+  text("Size (px): " + width + "x" + height, 30, 100);
   noFill();
   
   // drawing starting triangle
